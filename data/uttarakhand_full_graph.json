@@ -1,0 +1,291 @@
+{
+    "ALM": {
+        "connections": [
+            {
+                "distance": 80,
+                "time": 90,
+                "to": "PTH"
+            },
+            {
+                "distance": 20,
+                "time": 25,
+                "to": "NAE"
+            }
+        ],
+        "name": "Almora"
+    },
+    "BHT": {
+        "connections": [],
+        "name": "Bharatpur (ABONDONED)"
+    },
+    "CH": {
+        "connections": [
+            {
+                "distance": 70,
+                "time": 75,
+                "to": "SPE"
+            },
+            {
+                "distance": 60,
+                "time": 55,
+                "to": "PTH"
+            }
+        ],
+        "name": "Chamoli"
+    },
+    "DDN": {
+        "connections": [
+            {
+                "distance": 52,
+                "time": 60,
+                "to": "HW"
+            },
+            {
+                "distance": 110,
+                "time": 130,
+                "to": "RK"
+            }
+        ],
+        "name": "Dehradun"
+    },
+    "HLD": {
+        "connections": [
+            {
+                "distance": 10,
+                "time": 15,
+                "to": "KGM"
+            },
+            {
+                "distance": 25,
+                "time": 30,
+                "to": "KPV"
+            }
+        ],
+        "name": "Haldwani"
+    },
+    "HW": {
+        "connections": [
+            {
+                "distance": 20,
+                "time": 30,
+                "to": "LD"
+            },
+            {
+                "distance": 52,
+                "time": 60,
+                "to": "DDN"
+            }
+        ],
+        "name": "Haridwar"
+    },
+    "KGM": {
+        "connections": [
+            {
+                "distance": 45,
+                "time": 55,
+                "to": "LRJ"
+            },
+            {
+                "distance": 10,
+                "time": 15,
+                "to": "HLD"
+            }
+        ],
+        "name": "Kathgodam"
+    },
+    "KPT": {
+        "connections": [
+            {
+                "distance": 40,
+                "time": 50,
+                "to": "NAE"
+            },
+            {
+                "distance": 25,
+                "time": 30,
+                "to": "TPZ"
+            }
+        ],
+        "name": "Khatima"
+    },
+    "KPV": {
+        "connections": [
+            {
+                "distance": 25,
+                "time": 30,
+                "to": "HLD"
+            },
+            {
+                "distance": 60,
+                "time": 80,
+                "to": "RK"
+            }
+        ],
+        "name": "Kichha"
+    },
+    "LD": {
+        "connections": [
+            {
+                "distance": 90,
+                "time": 100,
+                "to": "RMR"
+            },
+            {
+                "distance": 20,
+                "time": 30,
+                "to": "HW"
+            }
+        ],
+        "name": "Laksar"
+    },
+    "LRJ": {
+        "connections": [
+            {
+                "distance": 35,
+                "time": 40,
+                "to": "RUD"
+            },
+            {
+                "distance": 45,
+                "time": 55,
+                "to": "KGM"
+            }
+        ],
+        "name": "Lalkuan"
+    },
+    "NAE": {
+        "connections": [
+            {
+                "distance": 20,
+                "time": 30,
+                "to": "ALM"
+            },
+            {
+                "distance": 40,
+                "time": 50,
+                "to": "KPT"
+            }
+        ],
+        "name": "Nainital"
+    },
+    "PBE": {
+        "connections": [
+            {
+                "distance": 45,
+                "time": 55,
+                "to": "UKA"
+            },
+            {
+                "distance": 55,
+                "time": 60,
+                "to": "SPE"
+            }
+        ],
+        "name": "Pauri"
+    },
+    "PTH": {
+        "connections": [
+            {
+                "distance": 60,
+                "time": 70,
+                "to": "CH"
+            },
+            {
+                "distance": 80,
+                "time": 95,
+                "to": "ALM"
+            }
+        ],
+        "name": "Pithoragarh"
+    },
+    "RK": {
+        "connections": [
+            {
+                "distance": 60,
+                "time": 70,
+                "to": "KPV"
+            },
+            {
+                "distance": 110,
+                "time": 130,
+                "to": "DDN"
+            }
+        ],
+        "name": "Roorkee"
+    },
+    "RMR": {
+        "connections": [
+            {
+                "distance": 50,
+                "time": 60,
+                "to": "TPZ"
+            },
+            {
+                "distance": 90,
+                "time": 100,
+                "to": "LD"
+            }
+        ],
+        "name": "Ramnagar"
+    },
+    "RUD": {
+        "connections": [
+            {
+                "distance": 50,
+                "time": 65,
+                "to": "UKA"
+            },
+            {
+                "distance": 35,
+                "time": 25,
+                "to": "LRJ"
+            }
+        ],
+        "name": "Rudrapur"
+    },
+    "SPE": {
+        "connections": [
+            {
+                "distance": 55,
+                "time": 65,
+                "to": "PBE"
+            },
+            {
+                "distance": 70,
+                "time": 85,
+                "to": "CH"
+            }
+        ],
+        "name": "Srinagar"
+    },
+    "TPZ": {
+        "connections": [
+            {
+                "distance": 25,
+                "time": 30,
+                "to": "KPT"
+            },
+            {
+                "distance": 50,
+                "time": 60,
+                "to": "RMR"
+            }
+        ],
+        "name": "Tanakpur"
+    },
+    "UKA": {
+        "connections": [
+            {
+                "distance": 50,
+                "time": 60,
+                "to": "RUD"
+            },
+            {
+                "distance": 45,
+                "time": 55,
+                "to": "PBE"
+            }
+        ],
+        "name": "Udham Singh Nagar"
+    }
+}
